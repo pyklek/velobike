@@ -1,1 +1,1 @@
-https://pyklek.github.io/velo/
+https://pyklek.github.io/velobike/
