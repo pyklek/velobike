@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+header,
+footer,
+nav,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+}
+p {
+    width: auto;
+    overflow-wrap: break-word;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+}
+.logo_header:hover {
+    filter: invert(100%) sepia(0) saturate(0) hue-rotate(0deg) brightness(100%) contrast(100%);
+    transition: all 0.4s;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+.menu_list {
+    display: flex;
+
+}
+.menu_link {
+    padding: 43px 20px;
+    text-transform: uppercase;
+}
+.menu_link:hover {
+    background-color: #131313;
+    color: #fff;
+    transition: all 0.4s;
+}
+.bike {
+    border: 0;
+    padding: 100px 0 150px;
+}
+.bike_inner {
+    display: flex;
+}
+.bike_left_title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 5px;
+}
+.bike_left_subtitle {
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 60px;
+    color: #6F6F6F;
+}
+.bike_left_text {
+    width: 420px;
+    font-size: 14px;
+    line-height: 120%;
+}
+.bike_left_order {
+    padding: 20px 81px;
+    background-color: #131313;
+    color: #fff;
+}
+.bike_left_order:hover {
+    background-color: #FF4040;
+    transition: all 0.4s;
+    color: #fff;
+}
+.bike_left_text:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+.bike_left_text:nth-of-type(2) {
+    margin-bottom: 80px;
+}
+a.bike_left_order {
+    display: inline-block;
+    padding: 28px 81px;
+    background: #131313;
+
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+a.bike_left_order:hover {
+    background: #ff4040;
+    color: #ffffff;
+    transition: all 0.4s;
+}
