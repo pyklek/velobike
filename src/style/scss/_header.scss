@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+}
+.logo_header:hover {
+    filter: invert(100%) sepia(0) saturate(0) hue-rotate(0deg) brightness(100%) contrast(100%);
+    transition: all 0.4s;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+.menu_list {
+    display: flex;
+
+}
+.menu_link {
+    padding: 43px 20px;
+    text-transform: uppercase;
+}
+.menu_link:hover {
+    background-color: #131313;
+    color: #fff;
+    transition: all 0.4s;
+}
